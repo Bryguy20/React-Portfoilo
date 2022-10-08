@@ -5,14 +5,14 @@ import weatherApi from '../assets/weatherApi.png';
 import noteTaker from '../assets/noteTaker.png';
 
 function Project(){
-
-const portfoiloList = [
+// the all of the project i have made in a array
+const portfolioList = [
   {
     id: 0,
-    title: "pwa",
+    title: "Just Another Note Application",
     img: pwa,
     description:
-      "Just Anoter Note Applaction where it can be download and use offline",
+      "Just Anoter Note Appliaction where it can be download and use offline",
     gitHubRepo: "https://github.com/Bryguy20/Text-Editor-Application",
     deployed: " https://just-another-text-edit.herokuapp.com/",
   },
@@ -30,7 +30,7 @@ const portfoiloList = [
     title: "ecommerce Website",
     img: ecommerce,
     description:
-      "This is a group project of making a ecommerce site where you can add to cart.",
+      "This is a group project of making a ecommerce website.",
     gitHubRepo: "https://github.com/Bryguy20/ecommerce-website",
     deployed: "https://nik-nak.herokuapp.com/",
   },
@@ -48,7 +48,7 @@ const portfoiloList = [
     title: "note Taker",
     img: noteTaker,
     description:
-      "this is a not taker applcation where you can take notes and save or even delete when needed. ",
+      "this is a note taker applcation where you can take notes and save or even delete when needed. ",
     gitHubRepo: "https://github.com/Bryguy20/Note-Taker",
     deployed: "https://note-taker-cha.herokuapp.com/",
   }
@@ -70,15 +70,11 @@ return (
               <p className="m-0">
                 <a
                   href={project.gitHubRepo}
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                 </a>
                 {project.deployed !== null && (
                   <a
                     href={project.deployed}
-                    target="_blank"
-                    rel="noopener noreferrer"
                   >
                   </a>
                 )}

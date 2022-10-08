@@ -29,14 +29,14 @@ function Resume() {
             <div>
               <p>University of Connecticut - 2022</p>
               <ul>
-                  <li>FullStack Coding Bootcamp certification</li>
+                <li>FullStack Coding Bootcamp certification</li>
               </ul>
             </div>
             <div>
-                <p>Torringtion High School</p>
-                <ul>
-                    <li>completed to recive high school diploma</li>
-                </ul>
+              <p>Torringtion High School</p>
+              <ul>
+                <li>completed to receive high school diploma</li>
+              </ul>
             </div>
           </section>
           <section className="experience card m-2 p-2">
@@ -44,18 +44,21 @@ function Resume() {
               <h3>Work Experience</h3>
               <p>machine Opterator, multifuction, Setiz - 2021-2022</p>
               <ul>
-                  <li>Managed inventory of warehouse</li>
-                  <li>Created and made labels/pallet slips</li>
-                  <li>completed special orders</li>
-                  <li>work in a team</li>
+                <li>Managed inventory of warehouse</li>
+                <li>Created and made labels/pallet slips</li>
+                <li>completed special orders</li>
+                <li>work in a team</li>
               </ul>
-             <p>injection Molding Opterator</p>
-             <ul>
-                 <li>Created and made labels/ pallet slips</li>
-                 <li>communcation with team on orders</li>
-                 <li>look over eac products to be sure they are good to ship</li>
-                 <li>Mad sure all the machine were working working without a problem</li>
-             </ul>
+              <p>injection Molding Opterator</p>
+              <ul>
+                <li>Created and made labels/ pallet slips</li>
+                <li>communcation with team on orders</li>
+                <li>look over eac products to be sure they are good to ship</li>
+                <li>
+                  Mad sure all the machine were working working without a
+                  problem
+                </li>
+              </ul>
             </div>
           </section>
         </div>

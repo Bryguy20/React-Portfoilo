@@ -1,15 +1,13 @@
 :root {
-    --blehpurple: #581858;
-    --pinkpurp: #840F6B;
-    --navypurp: #2f1e68;
+    --dark: #340505;
     --lighterblue: #061783;
-    --purpblue: #321b4c;
+    --red: #4c1b1b;
 }
 
 * {
     margin: 0;
     padding: 0;
-    /* border-style: dotted; */
+   
 }
 
 .app {
@@ -21,8 +19,8 @@
 header {
     margin-top: 0px !important;
     padding: 10px;
-    background-color: #321b4cbb;
-    border-bottom: 5px solid var(--blehpurple);
+    background-color: #190b2abb;
+    border-bottom: 5px solid var(--red);
 }
 
 .header-info {
@@ -33,7 +31,7 @@ header {
 }
 
 button {
-    background-color: var(--pinkpurp) !important;
+    background-color: aqua !important;
     margin-top: 10px !important;
     margin-left: 10px !important;
     margin-right: 10px !important;
@@ -72,16 +70,11 @@ footer {
 }
 
 .linkedIn {
-    padding-top: 10px;
+    padding-top: 5px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.twitter {
-    padding-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
 
 .about-me {
     display: flex;
@@ -94,7 +87,7 @@ footer {
 }
 
 article {
-    color: #c4169e;
+    color: darkcyan;
     background-color: black;
     width: 65%;
     padding: 15px;
@@ -108,12 +101,12 @@ article {
 .self-picture {
     border: 5px;
     border-style: solid;
-    border-color: var(--blehpurple);
+    border-color: var(--dark);
     border-radius: 10%;
 }
 
 body {
-    background-image: url('./assets/bluepurplespace.jpg');
+    background-image: url('./assets/background.JPG');
     background-size: cover;
 }
 
@@ -129,7 +122,7 @@ h2 {
     margin: auto;
     margin-top: 25px !important;
     padding: 10px;
-    background-color: #840F6Bbb;
+    background-color: #0f2884bb;
     text-align: center;
     width: 400px;
     border-radius: 20px;
@@ -180,8 +173,8 @@ h2 {
     text-align: center;
     border-radius: 15px;
     width: 60%;
-    color: #c4169e;
-    background-color: var(--purpblue);
+    color: blanchedalmond;
+    background-color: var(--lighterblue);
 }
 
 .cardInfo a svg {
@@ -198,7 +191,7 @@ h2 {
 
 .contact-me {
     background-color: #2f1e68aa;
-    color: #e118b5;
+    color: grey;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -221,7 +214,7 @@ label {
 .resume {
     text-align: left;
     margin-bottom: 85px;
-    color: white;
+    color: black;
 }
 
 .contact {
@@ -241,8 +234,8 @@ label {
 }
 
 .resume h3 {
-    border-bottom: solid 5px var(--blehpurple);
-    color: #e118b5;
+    border-bottom: solid 5px grey;
+    color: rgb(7, 17, 4);
 }
 
 .resume .card {

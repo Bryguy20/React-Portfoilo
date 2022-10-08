@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form';
 
 function Contact() {
     const [validated, setValidated] = useState(false);
-
+// to handle form and the form validity
     const handleSubmit = (event) => {
         const form =event.currentTarget;
         if (form.checkValidity() === false) {
@@ -17,9 +17,10 @@ function Contact() {
     };
 
    return(
+       // this is the form section
      <div>
          <h2>Contact Page</h2>
-         <Form className="contact-me" noValiadte validated={validated} onSubmit={handleSubmit}>
+         <Form className="contact-me" noValidate validated={validated} onSubmit={handleSubmit}>
              <Form.Group className="form-group">
                  <Form.Label>Name</Form.Label>
                 <Form.Control className="form-control" id="name" type="text" placeholder="John Smith" required />
