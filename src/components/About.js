@@ -7,8 +7,8 @@ function About() {
           className="self-picture"
           src={selfie}
           alt="pic of me"
-          width="325"
-          height="400"
+          width="323"
+          height="350"
         />
         <article>
           <h3>Hey Y'all</h3>
