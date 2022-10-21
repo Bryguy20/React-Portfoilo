@@ -2,6 +2,7 @@
   "name": "React-Portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://bryguy20.github.io/React-Portfoilo",
   "dependencies": {
     "@material-ui/icons": "^4.11.3",
     "@testing-library/jest-dom": "^5.16.5",
