@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.d53bf336.css",
-    "main.js": "/static/js/main.fab7d1af.js",
-    "static/media/teamWork.png": "/static/media/teamWork.086b94dd33accf14f50f.png",
-    "static/media/ecommerce.png": "/static/media/ecommerce.b18a1abff211986ba3e9.png",
-    "static/media/selfie.jpg": "/static/media/selfie.7f63064168f0446e79f8.jpg",
-    "static/media/weatherApi.png": "/static/media/weatherApi.5300d6a16429d69b4a5f.png",
-    "static/media/background.JPG": "/static/media/background.5d895bc8e9c6e35b6763.JPG",
-    "static/media/noteTaker.png": "/static/media/noteTaker.b85077a22a29d634f422.png",
-    "static/media/pwa.png": "/static/media/pwa.5d0b9dced3f527c0f8b2.png",
-    "index.html": "/index.html",
-    "main.d53bf336.css.map": "/static/css/main.d53bf336.css.map",
-    "main.fab7d1af.js.map": "/static/js/main.fab7d1af.js.map"
+    "main.css": "/React-Portfoilo/static/css/main.1202247e.css",
+    "main.js": "/React-Portfoilo/static/js/main.1852677e.js",
+    "static/media/teamWork.png": "/React-Portfoilo/static/media/teamWork.086b94dd33accf14f50f.png",
+    "static/media/ecommerce.png": "/React-Portfoilo/static/media/ecommerce.b18a1abff211986ba3e9.png",
+    "static/media/selfie.jpg": "/React-Portfoilo/static/media/selfie.7f63064168f0446e79f8.jpg",
+    "static/media/weatherApi.png": "/React-Portfoilo/static/media/weatherApi.5300d6a16429d69b4a5f.png",
+    "static/media/background.JPG": "/React-Portfoilo/static/media/background.5d895bc8e9c6e35b6763.JPG",
+    "static/media/noteTaker.png": "/React-Portfoilo/static/media/noteTaker.b85077a22a29d634f422.png",
+    "static/media/pwa.png": "/React-Portfoilo/static/media/pwa.5d0b9dced3f527c0f8b2.png",
+    "index.html": "/React-Portfoilo/index.html",
+    "main.1202247e.css.map": "/React-Portfoilo/static/css/main.1202247e.css.map",
+    "main.1852677e.js.map": "/React-Portfoilo/static/js/main.1852677e.js.map"
   },
   "entrypoints": [
-    "static/css/main.d53bf336.css",
-    "static/js/main.fab7d1af.js"
+    "static/css/main.1202247e.css",
+    "static/js/main.1852677e.js"
   ]
 }
